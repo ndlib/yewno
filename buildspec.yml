@@ -1,0 +1,14 @@
+---
+version: '0.2'
+
+
+artifacts:
+  discard-paths: false
+  files:
+  - .dockerignore
+  - Dockerfile
+  - Dockerrun.aws.json
+  - '**/*.html'
+  - '**/*.css'
+  - '**/*.js'
+...
